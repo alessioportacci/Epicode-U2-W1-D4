@@ -55,7 +55,8 @@ p{
     }
 
 .post-it:hover{
-    transform: rotate(0) scale(1.2)
+    transform: rotate(0) scale(1.2);
+    z-index: 9;
 }
 
 .yellow{

@@ -52,6 +52,9 @@ body{
     left: -222px;
 }
 
+img{
+    width: 100%;
+}
 
 @keyframes mymove {
     0% {

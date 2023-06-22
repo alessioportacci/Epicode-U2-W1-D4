@@ -22,47 +22,74 @@
       <section class="row">
         <article class="post-it yellow">
           <h3>Task #1</h3>
-          <p>Creare i postit</p>
+          <p>Batman & Robin</p>
+          <img
+            src="https://static.foxnews.com/foxnews.com/content/uploads/2023/05/Getty_Batman.jpg"
+          />
         </article>
         <article class="post-it green">
           <h3>Task #2</h3>
-          <p>Colorarli</p>
+          <p>Adam West</p>
+          <img
+            src="https://www.fumettologica.it/wp-content/uploads/2021/04/batman-serie-tv-adam-west.jpeg"
+          />
         </article>
         <article class="post-it violet">
           <h3>Task #3</h3>
-          <p>Affiancarli</p>
+          <p>Spiderman...?</p>
+          <img
+            src="https://orgoglionerd.it/wp-content/uploads/2019/11/spider-man-giapponese-supaidaman.jpg"
+          />
         </article>
         <article class="post-it green">
           <h3>Task #4</h3>
-          <p>Spostarli</p>
+          <p>Batman dal videogioco</p>
+          <img
+            src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fbatman-arkham-knight%2FEGS_WB_Batman_Arkham_Knight_G1_1920x1080_19_0911-1920x1080-1d69e15f00cb5ab57249f208f1f8f45d52cbbc59.jpg"
+          />
         </article>
       </section>
       <section class="row">
         <article class="post-it yellow">
           <h3>Task #5</h3>
-          <p>Ombreggiarli</p>
+          <p>Joker!</p>
+          <img
+            src="https://www.fumettologica.it/wp-content/uploads/2021/04/cesar-romeo-joker-batman.jpeg"
+          />
         </article>
         <article class="post-it violet">
           <h3>Task #6</h3>
-          <p>Ruotarli</p>
+          <p>Lego Batman</p>
+          <img
+            src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Flego-batman%2FEGS_WB_LEGO_Batman_G1_1920x1080_19_0911-1920x1080-e166b698acbbbcdae1ff306198684d143828467c.jpg"
+          />
         </article>
         <article class="post-it yellow">
           <h3>Task #7</h3>
-          <p>Animarli</p>
+          <p>Bruce Wayne</p>
+          <img
+            src="https://api.new-longtake.sq.biz/storage/assets/2019/39/assettitle-5d8a22a1c0c5d.png"
+          />
         </article>
         <article class="post-it green">
           <h3>Task #8</h3>
-          <p>Testarli</p>
+          <p>Batman</p>
+          <img
+            src="https://variety.com/wp-content/uploads/2017/06/rexfeatures_5884729u.jpg"
+          />
         </article>
       </section>
     </section>
 
-    <iframe
-      src="Batman Transition Sound Effect.mp3"
-      allow="autoplay"
-      style="display: none"
-      id="iframeAudio"
-    >
-    </iframe>
+    <audio id="myAudio" controls autoplay>
+      <source src="Batman Transition Sound Effect.mp3" type="audio/ogg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script>
+      const audio = document.getElementById("myAudio")
+      console.log(audio)
+      audio.play()
+    </script>
   </body>
 </html>
